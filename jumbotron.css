@@ -48,3 +48,8 @@ background-repeat: repeat-x;
 
 .team {background: white; padding: 10px 0;}
 .team h1 {color: black;}
+
+
+/*style the footer*/
+.navbar-fixed-bottom { position:relative;}
+body { padding-bottom:0;}
