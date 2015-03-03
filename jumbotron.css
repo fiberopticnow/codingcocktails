@@ -43,3 +43,8 @@ background-repeat: repeat-x;
 .jumbotron .logo {
 	color: white;
 }
+.people { padding-top:30px; margin-bottom: 0; }
+.people p { font-size:14px; }
+
+.team {background: white; padding: 10px 0;}
+.team h1 {color: black;}
