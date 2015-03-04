@@ -61,6 +61,8 @@ background-repeat: repeat-x;
 .quotes .thumbnail p {font-size: 20px;}
 .quotes h4 {font-size: 25px;}
 
+.team p {font-size: 18px;}
+
 /*style the footer*/
 .navbar-fixed-bottom { position:relative;}
 body { padding-bottom:0;}
