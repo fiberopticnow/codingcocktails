@@ -145,12 +145,15 @@
 
 
             <!-- User Quotes -->
-            <div class="jumbotron people">
-                <div class="container">
+            <div class="jumbotron people quotes" style="margin-top:30px;">
+                <div class="container scrollme">
                     <h2> Everyone loves Coding & Cocktails! </h2></br>
-
+                    <div class="animateme"
+                        data-when="span"
+                        data-from="0.5"
+                        data-to="0"
+                        data-translatey="360">
                     <div class="row">
-
                         <div class="col-md-3 col-md-offset-1">
                             <div class="thumbnail">
                                 <img class="img-circle" src="./images/mireille.jpg" />
@@ -160,9 +163,9 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="col-md-3 col-md-offset-1">
-                            <div class="thumbnail">
+
+                        <div class="col-md-3 col-md-offset-1 ">
+                            <div class="thumbnail ">
                                 <img class="img-circle" src="./images/frido.jpg" />
                                 <div class="caption">
                                     <h4 class="media-heading">Frido van Driem,</br> Co-Founder ZEEF.com </h4>
@@ -181,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-
+                      </div>
                     </div>
                 </div>
             </div>
@@ -194,24 +197,45 @@
                     <h1> Team </h1></br>
 
 
-                    <div class="row">
+                    <div class="row scrollme">
 
-                        <div class="col-md-3 col-md-offset-2">
+                        <div class="col-md-3 col-md-offset-2 animateme"
+                            data-when="span"
+                            data-from="0.5"
+                            data-to="0"
+                            data-translatex="-700">
                             <div class="thumbnail">
                                 <img class="img-circle" src="./images/katie.jpg" />
                                 <div class="caption">
-                                    <h4 class="media-heading">Katie Williams, Founder<br> RISE OF //CODE </h4>
-                                    <p> Life of the party. Passionate about spreading knowledge and good vibrations.</p>
+                                    <h4 class="media-heading">Katie Williams, M.Ed.</h4>
+                                    <p> Google Certified Teacher spreading <br>
+                                      the code love.
+                                      <a href="http://www.twitter.com/fiberopticnow" data-toggle="tooltip" title="Twitter">
+                                          <i class="fa fa-twitter"></i></a>
+                                      <a href="http://www.github.com/fiberopticnow" data-toggle="tooltip" title="Github">
+                                          <i class="fa fa-github-alt"></i></a>
+                                      <a href="http://www.instagram.com/fiberopticnow" data-toggle="tooltip" title="Instagram">
+                                          <i class="fa fa-instagram"></i></a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-md-offset-2">
+                        <div class="col-md-3 col-md-offset-2 animateme"
+                            data-when="span"
+                            data-from="0.5"
+                            data-to="0"
+                            data-translatex="700">
                             <div class="thumbnail">
                                 <img class="img-circle" src="./images/richard.jpg" />
                                 <div class="caption">
-                                    <h4 class="media-heading"> Richard Kraaijenhagen, Founder Owlin </h4>
-                                    <p> Was an actual child genius. Full stack developer and golden god of javascript.</p>
+                                    <h4 class="media-heading"> Richard Kraaijenhagen </h4>
+                                    <p>Full stack developer and golden god of javascript.
+                                      <a href="http://www.twitter.com/riichard" data-toggle="tooltip" title="Twitter">
+                                          <i class="fa fa-twitter"></i></a>
+                                      <a href="http://www.github.com/riichard" data-toggle="tooltip" title="Github">
+                                          <i class="fa fa-github-alt"></i></a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -238,9 +262,21 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="navbar-right" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="http://www.facebook.com/codingandcocktails" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="http://www.twitter.com/cocktailscoding" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a>
-                            <li><a href="http://www.instagram.com/codingandcocktails" data-toggle="tooltip" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li>
+                              <a href="http://www.facebook.com/codingandcocktails" data-toggle="tooltip" title="Facebook">
+                                <i class="fa fa-facebook"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://www.twitter.com/cocktailscoding" data-toggle="tooltip" title="Twitter">
+                                <i class="fa fa-twitter"></i>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="http://www.instagram.com/codingandcocktails" data-toggle="tooltip" title="Instagram">
+                                <i class="fa fa-instagram"></i>
+                              </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -254,6 +290,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/jquery.scrollme.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="./js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript">

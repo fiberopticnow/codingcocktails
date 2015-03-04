@@ -45,9 +45,14 @@ background-repeat: repeat-x;
 }
 .people { padding-top:30px; margin-bottom: 0; }
 .people p { font-size:14px; }
+.people .thumbnail { background:none; }
+/*.people .thumbnail .caption { background:white;margin-top:15px;border-radius:4px; }*/
+.quotes .thumbnail .caption { color:white;}
 
 .team {background: white; padding: 10px 0;}
 .team h1 {color: black;}
+
+.quotes { background:url(images/background.jpg);background-attachment:fixed; background-size:cover;}
 
 .thumbnail {border: 0px;}
 
