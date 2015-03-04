@@ -56,6 +56,11 @@ background-repeat: repeat-x;
 
 .thumbnail {border: 0px;}
 
+.quotes .thumbnail img {max-width:50%; }
+
+.quotes .thumbnail p {font-size: 20px;}
+.quotes h4 {font-size: 25px;}
+
 /*style the footer*/
 .navbar-fixed-bottom { position:relative;}
 body { padding-bottom:0;}
